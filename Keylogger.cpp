@@ -19,10 +19,10 @@ char KeyToChar(DWORD vkCode, BOOL shiftPressed) {
             return (char)vkCode; // Number
         } else {
             // Handling shift+number for special characters can be added here
-            // For simplicity, this example does not implement it
+            
         }
     }
-    // Add more conditions for other keys if needed
+    
     return 0; // No character to return
 }
 
